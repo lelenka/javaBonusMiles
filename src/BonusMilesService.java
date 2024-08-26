@@ -4,7 +4,9 @@ public class BonusMilesService {
         if (price >= 20) {
             int miles = 20;
             calculate = (price / miles);
-        } else calculate = 0;
+        } else {
+            calculate = 0;
+        }
 
         return calculate;
     }
